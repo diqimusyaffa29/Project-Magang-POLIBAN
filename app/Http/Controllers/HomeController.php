@@ -22,16 +22,19 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+    public function member(){
+        $users = User::all();
+        return view('member', compact('users','users'));
+        return view('member', compact('users','users'));
+    }
+
+
     public function index()
     {
         $users = User::all();
         return view('home');
     }
 
-    public function member()
-    {
-        $users = User::all();
-        return view('member', compact('users','users'));
-    }
+
 
 }

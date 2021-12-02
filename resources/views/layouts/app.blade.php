@@ -31,55 +31,52 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="container">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            {{-- left Side of Navbar --}}
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="{{route('home')}}" class="nav-link p-4 @yield('statusHome')">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{route('member')}}" class="nav-link p-4 @yield('statusMember')">Member</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link p-4">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link p-4">Article</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link p-4">Gallery</a>
+                </li>
+            </ul>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                {{-- left Side of Navbar --}}
-                <ul class="navbar-nav">
+            {{-- Right Side of Navbar --}}
+            <ul class="navbar-nav ml-auto">
+                {{-- Authentication Links --}}
+                @guest
                     <li class="nav-item">
-                        <a href="{{route('home')}}" class="nav-link p-4 @yield('statusHome')">Home</a>
+                        <a href="{{route('login')}}" class="nav-link p-4">Login</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="{{route()}}" class="nav-link p-4 @yield('statusMember')">Member</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link p-4">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link p-4">Article</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link p-4">Gallery</a>
-                    </li>
-                </ul>
-
-                {{-- Right Side of Navbar --}}
-                <ul class="navbar-nav ml-auto">
-                    {{-- Authentication Links --}}
-                    @guest
+                    @if (Route::has('register'))
                         <li class="nav-item">
-                            <a href="{{route('login')}}" class="nav-link p-4">Login</a>
+                            <a href="{{route('register')}}" class="nav-link p-4">Register</a>
                         </li>
-                        @if (Route::has('register'))
-                            <li class="nav-item">
-                                <a href="{{route('register')}}" class="nav-link p-4">Register</a>
-                            </li>
-                        @endif
-                        @else
-                            <li class="nav-item dropdown">
-                                <a href="#" id="navbarDropdown" class="nav-link dropdown-toggle p-4" role="button" data-toggle="dropdown" v-pre>
-                                    {{Auth::user()->nama}} <span class="caret"></span>
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-right p-0 border-0">
-                                    <a href="{{route('logout')}}" class="dropdown-item bg-dark text-white p-2 text-center" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
-                                    <form action="{{ route('logout') }}" id="logout-form" method="POST" style="display: none">
-                                        @csrf
-                                    </form>
-                                </div>
-                            </li>
-                    @endguest
-                </ul>
-            </div>
+                    @endif
+                    @else
+                        <li class="nav-item dropdown">
+                            <a href="#" id="navbarDropdown" class="nav-link dropdown-toggle p-4" role="button" data-toggle="dropdown" v-pre>
+                                {{Auth::user()->nama}} <span class="caret"></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right p-0 border-0">
+                                <a href="{{route('logout')}}" class="dropdown-item bg-dark text-white p-2 text-center" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                                <form action="{{ route('logout') }}" id="logout-form" method="POST" style="display: none">
+                                    @csrf
+                                </form>
+                            </div>
+                        </li>
+                @endguest
+            </ul>
         </div>
     </nav>
 
