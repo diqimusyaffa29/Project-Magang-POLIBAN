@@ -40,7 +40,7 @@
                         <a href="{{route('home')}}" class="nav-link p-4 @yield('statusHome')">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{route('member')}}" class="nav-link p-4 @yield('statusMember')">Member</a>
+                        <a href="{{route()}}" class="nav-link p-4 @yield('statusMember')">Member</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link p-4">Blog</a>
