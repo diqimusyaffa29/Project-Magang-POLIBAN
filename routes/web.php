@@ -22,6 +22,7 @@ use App\Http\Controllers\UserController;
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/member', [App\Http\Controllers\HomeController::class, 'member'])->name('member');
 
 // Route::get('/users/{user}/edit', [UserController::class,'edit'])->middleware('can:update,user');
 Route::get('/user/{user}/edit' , [UserController::class,'edit'])->middleware('can:update,user');
