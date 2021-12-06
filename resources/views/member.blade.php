@@ -2,60 +2,6 @@
 @section('statusMember','active')
 
 @section('content')
-{{-- SLIDER --}}
-<header id="main-slide">
-    <div class="carousel slide carousel-fade" id="mySlide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#mySlide" data-slide-to="0" class="active"></li>
-            <li data-target="#mySlide" data-slide-to="1"></li>
-            <li data-target="#mySlide" data-slide-to="2"></li>
-            <li data-target="#mySlide" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner text-white">
-            <div class="carousel-item active" id="slide1" data-interval="4000">
-                <img src="{{asset('img/full-image10.jpg')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Get <strong>Inpired</strong></h1>
-                    <br>
-                    <p class="bg-dark px-2 pb-1 d-inline-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, et!</p>
-                </div>
-            </div>
-            <div class="carousel-item " id="slide2" data-interval="4000">
-                <img src="{{asset('img/full-image5.jpg')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Take <strong>Action</strong></h1>
-                    <br>
-                    <p class="bg-dark px-2 pb-1 d-inline-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, et!</p>
-                </div>
-            </div>
-            <div class="carousel-item " id="slide3" data-interval="4000">
-                <img src="{{asset('img/full-image4.jpg')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Be <strong>Social</strong></h1>
-                    <br>
-                    <p class="bg-dark px-2 pb-1 d-inline-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, et!</p>
-                </div>
-            </div>
-            <div class="carousel-item " id="slide4" data-interval="4000">
-                <img src="{{asset('img/full-image1.jpg')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Find<strong>Stories</strong></h1>
-                    <br>
-                    <p class="bg-dark px-2 pb-1 d-inline-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, et!</p>
-                </div>
-            </div>
-        </div>
-        <a href="#mySlide" class="carousel-control-prev" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a href="#mySlide" class="carousel-control-next" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-</header>
-{{-- END SLIDER --}}
 {{-- MEMBER LIST --}}
 <section class="py-5 bg-light text-center" id="member-list">
     <div class="container">
