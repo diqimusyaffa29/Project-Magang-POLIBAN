@@ -22,11 +22,11 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0" id="main-navbar">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0 sticky-top" id="main-navbar">
         <a href="{{route('home')}}" class="navbar-brand">
             <span class="d-none">BPSC</span>
-            <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-inline">
-            <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-none">
+            <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-inline" style="padding: 10px 0 10px 10px">
+            <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-none" style="padding: 10px 0 10px 10px">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -158,5 +158,6 @@
             </div>
         </div>
     </footer>
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>
