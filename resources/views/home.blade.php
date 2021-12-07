@@ -3,7 +3,6 @@
 
 
 @section('content')
-<marquee direction="left" scrollamount="15" style="background-color: rgb(17, 179, 207)"><span style="color: white; font-family:arial;" ><span style="font-size: 50px; text-shadow: 1px 1px 1px gray;"><b>Selamat Datang di Banjarmasin Plaza Smart City</b></span></span></marquee>
 {{-- SLIDER --}}
 <header id="main-slide">
     <div class="carousel slide carousel-fade" id="mySlide" data-ride="carousel">
@@ -12,6 +11,8 @@
             <li data-target="#mySlide" data-slide-to="1"></li>
             <li data-target="#mySlide" data-slide-to="2"></li>
             <li data-target="#mySlide" data-slide-to="3"></li>
+            <li data-target="#mySlide" data-slide-to="4"></li>
+            <li data-target="#mySlide" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner text-white" >
             <div class="carousel-item active" id="slide1" data-interval="4000" >
@@ -46,7 +47,7 @@
                     <p class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Smart living menjadi salah satu dimensi dalam Smart City untuk menjamin kelayakan taraf hidup masyarakat di dalamnya. Kelayakan taraf hidup ini dapat dinilai dari tiga elemen, yaitu kelayakan pola hidup, kelayakan kualitas kesehatan, dan kelayakan moda transportasi untuk mendukung mobilitas orang dan barang di dalam sebuah Smart City. Sasaran dari smart living di dalam Smart City adalah untuk mewujudkan lingkungan tempat tinggal yang layak tinggal, nyaman, dan efisien.</p>
                 </div>
             </div>
-            <div class="carousel-item " id="slide4" data-interval="4000">
+            <div class="carousel-item " id="slide5" data-interval="4000">
                 <img src="{{asset('img/full-image1.jpg')}}" alt="" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
                     <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Smart <strong>Society</strong></h1>
@@ -54,7 +55,7 @@
                     <p class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Smart society sebagai bagian dari Smart City merupakan dimensi yang banyak membahas tentang manusia sebagai unsur utama sebuah kota. Di dalam sebuah Smart City, interaksi antar manusia telah bergerak menuju ekosistem sosioteknis di mana dimensi fisik dan virtual dari kehidupan warga kota semakin terjalin secara intensif. Interaksi antar-warga terjalin dengan semakin kuat dan tanpa sekat dengan mediasi teknologi.</p>
                 </div>
             </div>
-            <div class="carousel-item " id="slide4" data-interval="4000">
+            <div class="carousel-item " id="slide6" data-interval="4000">
                 <img src="{{asset('img/full-image1.jpg')}}" alt="" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
                     <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Smart <strong>Environment</strong></h1>
@@ -89,26 +90,26 @@
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
-            <div class="col-lg-4" style="padding: 50px 0 20px 0 ">
+            <div class="col-lg-4 px-lg-5" style="padding: 50px 0 20px 0">
                 <center>
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                </center>
-            </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4" style="padding: 50px 0 20px 0">
-                <center>
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
+                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140 " height="160">
+                    <h2>Kepala Dinas Kominfo</h2>
                     <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </center>
             </div><!-- /.col-lg-4 -->
-            <div class="col-lg-4" style="padding: 50px 0 20px 0">
+            <div class="col-lg-4 px-lg-5" style="padding: 50px 0 20px 0 ">
+                <center>
+                    <img class="rounded-circle" src="{{asset('img/WalikotaBJM.jpg')}}" alt="Generic placeholder image" width="140" height="10">
+                    <h2>Walikota Banjarmasin</h2>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                </center>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4 px-lg-5" style="padding: 50px 0 20px 0">
                 <center>
                     <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-                    <h2>Heading</h2>
+                    <h2>Kepala Bidang Smart City </h2>
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </center>
@@ -160,9 +161,9 @@
 
 
         <!-- FOOTER -->
-        <footer>
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <footer>
+                <p class="float-right"><a href="#">Back to top</a></p>
+                <p>&copy; Tim Magang POLIBAN | 2021 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
 
         </div><!-- /.container -->
