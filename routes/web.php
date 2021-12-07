@@ -23,6 +23,7 @@ Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/member', [App\Http\Controllers\HomeController::class, 'member'])->name('member');
+Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
 
 // Route::get('/users/{user}/edit', [UserController::class,'edit'])->middleware('can:update,user');
 Route::get('/user/{user}/edit' , [UserController::class,'edit'])->middleware('can:update,user');
