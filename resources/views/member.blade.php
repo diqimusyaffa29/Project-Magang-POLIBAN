@@ -3,13 +3,13 @@
 
 @section('content')
 {{-- MEMBER LIST --}}
-<section class="py-5 bg-light text-center" id="member-list">
+<section class="py-3 bg-light text-center" id="member-list">
     <div class="container">
         <div class="row">
-            <div class="col text-center">
-                <h1>Member List</h1>
+            <div class="col text-center" style="padding-top: 0">
+                <h1>Daftar Anggota</h1>
                 <hr class="w-25">
-                <p class="lead">Ini adalah list dari member-member kami </p>
+                <p class="lead">Ini adalah Daftar Anggota Banjarmasin Plaza Smart City </p>
 
                 @if (session()->has('pesan'))
                     @if (session()->get('pesan') == 'update')
