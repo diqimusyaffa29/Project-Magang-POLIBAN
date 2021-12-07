@@ -35,19 +35,22 @@
             {{-- left Side of Navbar --}}
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="{{route('home')}}" class="nav-link p-4 @yield('statusHome')">Home</a>
+                    <a href="{{route('home')}}" class="nav-link p-4 @yield('statusHome')">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{route('member')}}" class="nav-link p-4 @yield('statusMember')">Member</a>
+                    <a href="{{route('member')}}" class="nav-link p-4 @yield('statusMember')">Anggota</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link p-4">Blog</a>
+                    <a href="{{route('about')}}" class="nav-link p-4 @yield('statusAbout')">Profil</a>
                 </li>
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <a href="#" class="nav-link p-4">Article</a>
+                </li> --}}
+                <li class="nav-item">
+                    <a href="#" class="nav-link p-4">Galeri</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link p-4">Gallery</a>
+                    <a href="#hubungi" class="nav-link p-4">Kontak Kami</a>
                 </li>
             </ul>
 
@@ -116,7 +119,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-3 text-center text-md-left">
+                <div class="col-md-3 text-center text-md-left" id="hubungi">
                     <h5>Hubungi Kami</h5>
                     <div class="text-nowrap">
                         <i class="fas fa-envelope fa-fw mr-3">diqimusyaffa4@gmail.com</i>
@@ -158,6 +161,7 @@
             </div>
         </div>
     </footer>
-    <script src="{{asset('js/app.js')}}"></script>
+    {{-- <script src="{{asset('js/app.js')}}"></script> KADA MAU KOCAK GAMING --}}
+    <script src="{{asset('js/app.js')}}">
 </body>
 </html>
