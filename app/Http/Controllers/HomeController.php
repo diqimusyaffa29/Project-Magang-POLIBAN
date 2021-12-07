@@ -35,6 +35,12 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function about()
+    {
+        $users = User::all();
+        return view('about');
+    }
+
 
 
 }
