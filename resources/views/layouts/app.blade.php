@@ -25,8 +25,8 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0 sticky-top" id="main-navbar">
         <a href="{{route('home')}}" class="navbar-brand">
             <span class="d-none">BPSC</span>
-            <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-inline" style="padding: 10px 0 10px 10px">
-            <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-none" style="padding: 10px 0 10px 10px">
+            <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-inline px-3 py-2" >
+            <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-none px-3 py-2">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -135,7 +135,7 @@
 
             <div class="row mt-3 mt-md-0">
                 <div class="col-md-3 mr-md-auto text-center text-md-left">
-                    <small>&copy; Muhammad Shiddiqi Musyaffa' | 2021</small>
+                    <small>&copy; Tim Magang POLIBAN | 2021</small>
                 </div>
                 <div class="col-md-3 text-center text-md-left">
                     <div>
