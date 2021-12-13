@@ -100,7 +100,7 @@
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 px-lg-5" style="padding: 50px 0 20px 0 ">
                 <center>
-                    <img class="rounded-circle" src="{{asset('img/WalikotaBJM.jpg')}}" alt="Generic placeholder image" width="130" height="150">
+                    <img class="rounded-circle" src="{{asset('img/WalikotaBJM.jpg')}}" alt="Generic placeholder image" width="200" height="220">
                     <h2>Walikota Banjarmasin</h2>
                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -127,7 +127,10 @@
                 <p class="lead"><strong>Kota Banjarmasin </strong>merupakan Ibukota Provinsi Kalimantan Selatan yang terletak di muara Sungai Barito. Sebagian besar wilayah Kota Banjarmasin yang memiliki luas sekitar 98,46 km kubik mengalami perkembangan yang sangat cepat hingga menjadi Kota terdapat di Provinsi Kalimantan Selatan.</p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-responsive center-block" src="{{asset('img/mapsbjm.jpg')}}" alt="Generic placeholder image">
+                <figure>
+                    <img class="featurette-image img-responsive center-block" src="{{asset('img/mapsbjm.jpg')}}" style="border-radius:30px" alt="Generic placeholder image">
+                    <figcaption>Sumber: Google Maps</figcaption>
+                </figure>
             </div>
         </div>
 
@@ -139,7 +142,10 @@
                 <p class="lead">Berdasarkan data tahun 2017 kepadatan penduduk Kota Banjarmasin mencapai 6.949 jiwa/km diprediksikan jika jumlah penduduk di Kota Banjarmasin akakn mencapai 748.174 jiwa pada tahun 2023 dan 797.693 di tahun 2008 dengan laju pertumbuhan 1,29%.</p>
             </div>
             <div class="col-md-5 order-md-1">
-                <img class="featurette-image img-responsive center-block" src="{{asset('img/Wisata_Menara_Pandang_Mulai_Ramai_Meski_Belum_Dibuka_1.jpg')}}" style="width: 420px; height:370px" alt="Generic placeholder image">
+                <figure>
+                    <img class="featurette-image img-responsive center-block" src="{{asset('img/Wisata_Menara_Pandang_Mulai_Ramai_Meski_Belum_Dibuka_1.jpg')}}" style="width: 420px; height:370px border-radius:30px" alt="Generic placeholder image">
+                    <figcaption>Sumber: Google Image</figcaption>
+                </figure>
             </div>
         </div>
 
@@ -151,7 +157,10 @@
                 <p class="lead">Jl. Kapten Pierre Tendean (Menara Pandang Lantai 3), Gadang, Kecamatan Banjarmasin Tengah, Kota Banjarmasin, Kalimantan Selatan 70123.</p>
             </div>
             <div class="col-md-5">
-                <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+                <figure>
+                    <img class="featurette-image img-responsive center-block" src="{{asset('img/Slider-2-Menara_Pandang-BanjarmasinTourism.jpg')}}" style="width: 420px; height:370px; border-radius:30px" alt="Generic placeholder image">
+                    <figcaption>Sumber: Dinas Kebudayaan dan Pariwisata Kota Banjarmasin</figcaption>
+                </figure>
             </div>
         </div>
 
