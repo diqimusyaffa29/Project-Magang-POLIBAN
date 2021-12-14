@@ -128,7 +128,9 @@
             </div>
             <div class="col-md-5">
                 <figure>
-                    <img class="featurette-image img-responsive center-block" src="{{asset('img/mapsbjm.jpg')}}" style="border-radius:30px" alt="Generic placeholder image">
+                    <a href="https://www.google.co.id/maps/place/Banjarmasin,+Kota+Banjarmasin,+Kalimantan+Selatan/@-3.3171351,114.5591928,12101m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2de4209aa1eec961:0x26030bfcc09204d2!8m2!3d-3.3186067!4d114.5943784?hl=id">
+                        <img class="featurette-image img-responsive center-block" src="{{asset('img/mapsbjm.jpg')}}" style="border-radius:30px" alt="Generic placeholder image">
+                    </a>
                     <figcaption>Sumber: Google Maps</figcaption>
                 </figure>
             </div>
@@ -143,7 +145,7 @@
             </div>
             <div class="col-md-5 order-md-1">
                 <figure>
-                    <img class="featurette-image img-responsive center-block" src="{{asset('img/Wisata_Menara_Pandang_Mulai_Ramai_Meski_Belum_Dibuka_1.jpg')}}" style="width: 420px; height:370px border-radius:30px" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive center-block" src="{{asset('img/Wisata_Menara_Pandang_Mulai_Ramai_Meski_Belum_Dibuka_1.jpg')}}" style="width: 420px; height:370px; border-radius:30px" alt="Generic placeholder image">
                     <figcaption>Sumber: Google Image</figcaption>
                 </figure>
             </div>
@@ -158,7 +160,9 @@
             </div>
             <div class="col-md-5">
                 <figure>
-                    <img class="featurette-image img-responsive center-block" src="{{asset('img/Slider-2-Menara_Pandang-BanjarmasinTourism.jpg')}}" style="width: 420px; height:370px; border-radius:30px" alt="Generic placeholder image">
+                    <a href="https://www.google.co.id/maps/place/Banjarmasin+Plaza+Smart+City/@-3.3170573,114.5930378,19z/data=!4m5!3m4!1s0x2de4232bca16fb15:0x2b70d9b238e01d19!8m2!3d-3.3170072!4d114.5931429?hl=id">
+                        <img class="featurette-image img-responsive center-block" src="{{asset('img/Slider-2-Menara_Pandang-BanjarmasinTourism.jpg')}}" style="width: 420px; height:370px; border-radius:30px" alt="Generic placeholder image">
+                    </a>
                     <figcaption>Sumber: Dinas Kebudayaan dan Pariwisata Kota Banjarmasin</figcaption>
                 </figure>
             </div>

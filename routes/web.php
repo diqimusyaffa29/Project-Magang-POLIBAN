@@ -26,7 +26,7 @@ Route::get('/member', [App\Http\Controllers\HomeController::class, 'member'])->n
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
 
 // Route::get('/users/{user}/edit', [UserController::class,'edit'])->middleware('can:update,user');
-Route::get('/user/{user}/edit' , [UserController::class,'edit'])->middleware('can:update,user');
+Route::get('/users/{user}/edit' , [UserController::class,'edit'])->middleware('can:update,user');
 Route::patch('/users/{user}', [UserController::class,'update'])->middleware('can:update,user');
 Route::delete('/users/{user}', [UserController::class,'destroy'])->middleware('can:delete,user');
 

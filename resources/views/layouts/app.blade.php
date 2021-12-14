@@ -20,12 +20,19 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <style>
+        .carousel-item.active,
+        .carousel-item-next,
+        .carousel-item-prev {
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0 sticky-top" id="main-navbar">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark py-0 sticky-top" id="main-navbar" style="z-index: 100; ">
         <a href="{{route('home')}}" class="navbar-brand">
             <span class="d-none">BPSC</span>
-            <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-inline px-3 py-2" >
+            <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-inline py-2 px-2" >
             <img src="{{asset('img/logobpsc.png')}}" alt="bpsc logo" class="small-logo d-none d-md-none px-3 py-2">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -35,22 +42,22 @@
             {{-- left Side of Navbar --}}
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="{{route('home')}}" class="nav-link p-4 @yield('statusHome')">Beranda</a>
+                    <a href="{{route('home')}}" class="nav-link p-3 @yield('statusHome')">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{route('member')}}" class="nav-link p-4 @yield('statusMember')">Anggota</a>
+                    <a href="{{route('member')}}" class="nav-link p-3 @yield('statusMember')">Anggota</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{route('about')}}" class="nav-link p-4 @yield('statusAbout')">Profil</a>
+                    <a href="{{route('about')}}" class="nav-link p-3 @yield('statusAbout')">Profil</a>
                 </li>
                 {{-- <li class="nav-item">
                     <a href="#" class="nav-link p-4">Article</a>
                 </li> --}}
                 <li class="nav-item">
-                    <a href="#" class="nav-link p-4">Galeri</a>
+                    <a href="#" class="nav-link p-3">Galeri</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#hubungi" class="nav-link p-4">Kontak Kami</a>
+                    <a href="#hubungi" class="nav-link p-3">Kontak Kami</a>
                 </li>
             </ul>
 
