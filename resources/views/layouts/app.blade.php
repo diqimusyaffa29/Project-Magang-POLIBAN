@@ -57,7 +57,7 @@
                     <a href="{{route('gallery')}}" class="nav-link p-3 @yield('statusGaleri')">Galeri</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#hubungi" class="nav-link p-3">Kontak Kami</a>
+                    <a href="{{route('contact')}}" class="nav-link p-3 @yield('statusKontak')">Kontak Kami</a>
                 </li>
             </ul>
 
@@ -100,42 +100,42 @@
                     <a href="index.html">
                         <img src="{{ asset('img/logobpsc.png') }}" style="height: 60px">
                     </a>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident molestiae facilis recusandae odit mollitia. Asperiores delectus laborum perferendis pariatur corporis.
+                    <p class="py-2">
+                        Implementasi program dan kegiatan melalui Smart City Plaza adalah menuju ekosistem smart City dalam aspek social (<i>smart society</i>), aspek ekonomi (<i>smart economy</i>), serta aspek lingkungan (<i>smart environment</i>), menuju pembangunan berkelanjutan.
                     </p>
                 </div>
 
-                <div class="col-md-3 text-center">
+                <div class="col-md-2 text-center">
                     <h5>Community</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Activity</a></li>
-                        <li><a href="#" class="text-white">Members</a></li>
-                        <li><a href="#" class="text-white">Groups</a></li>
-                        <li><a href="#" class="text-white">Forums</a></li>
+                        <li><a href="#" class="text-white">BPSC</a></li>
+                        <li><a href="#" class="text-white">KOPI</a></li>
+                        <li><a href="#" class="text-white">TDA</a></li>
+                        <li><a href="#" class="text-white">And many more</a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-3 text-center">
+                <div class="col-md-4 text-center">
                     <h5>Our Services</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Our Mission</a></li>
-                        <li><a href="#" class="text-white">Help/Contact Us</a></li>
-                        <li><a href="#" class="text-white">Privacy Policy</a></li>
-                        <li><a href="#" class="text-white">Cookie Policy</a></li>
-                        <li><a href="#" class="text-white">Terms & Condition</a></li>
+                        <li><a href="#" class="text-white">Giving a comfortable Working Space</a></li>
+                        <li><a href="#" class="text-white">Free Wifi up to 2 Devices</a></li>
+                        <li><a href="#" class="text-white">4 Personal Computer Ready to Use</a></li>
+                        <li><a href="#" class="text-white">Open from 9AM to 4PM</a></li>
+                        <li><a href="#" class="text-white">River Views</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-3 text-center text-md-left" id="hubungi">
                     <h5>Hubungi Kami</h5>
-                    <div class="text-nowrap">
-                        <i class="fas fa-envelope fa-fw mr-3">diqimusyaffa4@gmail.com</i>
+                    <div class="text-nowrap" style="font-size: 15px">
+                        <i class="fas fa-envelope fa-lg " > banjarmasinplazasmartcity@gmail.com</i>
                     </div>
                     <div class="text-nowrap">
-                        <i class="fas fa-phone fa-fw mr-3">081250456484</i>
+                        <i class="fab fa-instagram fa-lg"> @banjarmasinplazasmartcity</i>
                     </div>
                     <div class="text-nowrap">
-                        <i class="fas fa-globe fa-fw mr-3">mantapjiwa.com</i>
+                        <i class="fas fa-globe fa-lg"> bpsc.plaza.go.id</i>
                     </div>
                 </div>
             </div>
@@ -146,20 +146,11 @@
                 </div>
                 <div class="col-md-3 text-center text-md-left">
                     <div>
-                        <a href="#" class="text-white mr-2">
-                            <i class="fab fa-facebook fa-lg"></i>
-                        </a>
-                        <a href="#" class="text-white mr-2">
-                            <i class="fab fa-twitter fa-lg"></i>
-                        </a>
-                        <a href="#" class="text-white mr-2">
+                        <a href="https://www.instagram.com/banjarmasinplazasmartcity/" class="text-white mr-2">
                             <i class="fab fa-instagram fa-lg"></i>
                         </a>
-                        <a href="#" class="text-white mr-2">
-                            <i class="fab fa-google-plues fa-lg"></i>
-                        </a>
-                        <a href="#" class="text-white mr-2">
-                            <i class="fab fa-github fa-lg"></i>
+                        <a href="mailto:banjarmasinplazasmartcity@gmail.com" class="text-white mr-2">
+                            <i class="far fa-envelope fa-lg" ></i>
                         </a>
                     </div>
                 </div>
