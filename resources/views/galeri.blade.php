@@ -70,8 +70,9 @@
                     </div>
                 </div>
                 {{-- END Peresmian --}}
+            </header>
 
-                <hr class="featurette-divider">
+            <hr class="featurette-divider">
 
             {{-- Fasilitas BPSC --}}
             <header id="main-slide2">
@@ -86,54 +87,60 @@
                     </ol>
                     <div class="carousel-inner text-white">
                         <div class="carousel-item active" id="slide1" data-interval="4000">
-                            <img src="{{ asset('img/fasilitas/IMG_20210524_101342.jpg') }}"
-                                alt="" class="img-fluid" height="1000px">
+                            <img src="{{ asset('img/fasilitas/IMG_20210524_101342.jpg') }}" alt="" class="img-fluid"
+                                height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas Banjarmasin Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas
+                                    Banjarmasin Smart City</h3>
                             </div>
                         </div>
                         <div class="carousel-item" id="slide2" data-interval="4000">
-                            <img src="{{ asset('img/fasilitas/IMG_20210524_101711.jpg') }}"
-                                alt="" class="img-fluid" height="1000px">
+                            <img src="{{ asset('img/fasilitas/IMG_20210524_101711.jpg') }}" alt="" class="img-fluid"
+                                height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas Banjarmasin Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas
+                                    Banjarmasin Smart City</h3>
                             </div>
                         </div>
                         <div class="carousel-item" id="slide3" data-interval="4000">
-                            <img src="{{ asset('img/fasilitas/IMG_20210524_101750.jpg') }}"
-                                alt="" class="img-fluid" height="1000px">
+                            <img src="{{ asset('img/fasilitas/IMG_20210524_101750.jpg') }}" alt="" class="img-fluid"
+                                height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas Banjarmasin Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas
+                                    Banjarmasin Smart City</h3>
                             </div>
                         </div>
-                        <div class="carousel-item" id="slide3" data-interval="4000">
+                        <div class="carousel-item" id="slide4" data-interval="4000">
                             <img src="{{ asset('img/fasilitas/IMG_20210524_101814.jpg') }}" alt="" class="img-fluid"
                                 height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas Banjarmasin Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas
+                                    Banjarmasin Smart City</h3>
                             </div>
                         </div>
-                        <div class="carousel-item" id="slide3" data-interval="4000">
+                        <div class="carousel-item" id="slide5" data-interval="4000">
                             <img src="{{ asset('img/fasilitas/IMG_20210524_101835.jpg') }}" alt="" class="img-fluid"
                                 height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas Banjarmasin Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas
+                                    Banjarmasin Smart City</h3>
                             </div>
 
-                            <a href="#mySlide2" class="carousel-control-prev" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a href="#mySlide2" class="carousel-control-next" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
                         </div>
+                        <a href="#mySlide2" class="carousel-control-prev" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a href="#mySlide2" class="carousel-control-next" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
-                    {{-- END Fasilitas --}}
-                </header>
+                </div>
+                {{-- END Fasilitas --}}
+            </header>
 
-                <hr class="featurette-divider">
+            <hr class="featurette-divider">
 
             {{-- Kegiatan BPSC --}}
             <header id="main-slide2">
@@ -148,38 +155,43 @@
                     </ol>
                     <div class="carousel-inner text-white">
                         <div class="carousel-item active" id="slide1" data-interval="4000">
-                            <img src="{{ asset('img/kegiatan/1-2-21....jpeg') }}"
-                                alt="" class="img-fluid" height="1000px">
+                            <img src="{{ asset('img/kegiatan/1-2-21....jpeg') }}" alt="" class="img-fluid"
+                                height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan Sehari-hari Banjarmasin Plaza Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan
+                                    Sehari-hari Banjarmasin Plaza Smart City</h3>
                             </div>
                         </div>
                         <div class="carousel-item" id="slide2" data-interval="4000">
-                            <img src="{{ asset('img/kegiatan/18-3-21.jpeg') }}"
-                                alt="" class="img-fluid" height="1000px">
+                            <img src="{{ asset('img/kegiatan/18-3-21.jpeg') }}" alt="" class="img-fluid"
+                                height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan Sehari-hari Banjarmasin Plaza Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan
+                                    Sehari-hari Banjarmasin Plaza Smart City</h3>
                             </div>
                         </div>
                         <div class="carousel-item" id="slide3" data-interval="4000">
-                            <img src="{{ asset('img/kegiatan/19-3-21...jpeg') }}"
-                                alt="" class="img-fluid" height="1000px">
+                            <img src="{{ asset('img/kegiatan/19-3-21...jpeg') }}" alt="" class="img-fluid"
+                                height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan Sehari-hari Banjarmasin Plaza Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan
+                                    Sehari-hari Banjarmasin Plaza Smart City</h3>
                             </div>
                         </div>
                         <div class="carousel-item" id="slide3" data-interval="4000">
                             <img src="{{ asset('img/kegiatan/2-2-21...jpeg') }}" alt="" class="img-fluid"
                                 height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan Sehari-hari Banjarmasin Plaza Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan
+                                    Sehari-hari Banjarmasin Plaza Smart City</h3>
                             </div>
                         </div>
                         <div class="carousel-item" id="slide3" data-interval="4000">
                             <img src="{{ asset('img/kegiatan/20200116_111617.jpg') }}" alt="" class="img-fluid"
                                 height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan Sehari-hari Banjarmasin Plaza Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan
+                                    Sehari-hari Banjarmasin Plaza Smart City</h3>
                             </div>
                         </div>
                         <div class="carousel-item" id="slide3" data-interval="4000">
@@ -200,9 +212,9 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
+                </div>
+                {{-- END Kegiatan --}}
+            </header>
         </div>
-        {{-- END Kegiatan --}}
-        </header>
-    </div>
     </div>
 @endsection
