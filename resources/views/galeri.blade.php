@@ -69,9 +69,9 @@
                         </a>
                     </div>
                 </div>
-            {{-- END Peresmian  --}}
+                {{-- END Peresmian --}}
 
-            <hr class="featurette-divider">
+                <hr class="featurette-divider">
 
             {{-- Fasilitas BPSC --}}
             <header id="main-slide2">
@@ -119,22 +119,21 @@
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
                                 <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Fasilitas Banjarmasin Smart City</h3>
                             </div>
+
+                            <a href="#mySlide2" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a href="#mySlide2" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
-
-                        <a href="#mySlide2" class="carousel-control-prev" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a href="#mySlide2" class="carousel-control-next" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
                     </div>
-                </div>
-                {{-- END Fasilitas  --}}
-            </header>
+                    {{-- END Fasilitas --}}
+                </header>
 
-            <hr class="featurette-divider">
+                <hr class="featurette-divider">
 
             {{-- Kegiatan BPSC --}}
             <header id="main-slide2">
@@ -183,12 +182,12 @@
                                 <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan Sehari-hari Banjarmasin Plaza Smart City</h3>
                             </div>
                         </div>
-                        </div>
                         <div class="carousel-item" id="slide3" data-interval="4000">
                             <img src="{{ asset('img/kegiatan/20200120_103841.jpg') }}" alt="" class="img-fluid"
                                 height="1000px">
                             <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan Sehari-hari Banjarmasin Plaza Smart City</h3>
+                                <h3 class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Kegiatan
+                                    Sehari-hari Banjarmasin Plaza Smart City</h3>
                             </div>
                         </div>
 
@@ -201,9 +200,9 @@
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
-                </div>
-                {{-- END Kegiatan  --}}
-            </header>
         </div>
+        {{-- END Kegiatan --}}
+        </header>
+    </div>
     </div>
 @endsection
