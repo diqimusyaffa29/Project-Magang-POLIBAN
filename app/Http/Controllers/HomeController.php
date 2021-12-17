@@ -22,9 +22,37 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+    public function member(){
+        $users = User::all();
+        return view('member', compact('users','users'));
+        return view('member', compact('users','users'));
+    }
+
+
     public function index()
     {
         $users = User::all();
-        return view('home', compact('users','users'));
+        return view('home');
     }
+
+    public function about()
+    {
+        $users = User::all();
+        return view('about');
+    }
+
+    public function gallery()
+    {
+        $users = User::all();
+        return view('galeri');
+    }
+
+    public function contact()
+    {
+        $users = User::all();
+        return view('kontak');
+    }
+
+
+
 }

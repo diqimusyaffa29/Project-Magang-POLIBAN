@@ -21,7 +21,7 @@
         <div class="col-lg-8">
             <h1>Edit Data</h1>
             <hr>
-            <form action="{{ url('/ users /'.$user->id) }}" method="POST" enctype="multipart/form-data">
+            <form action="{{ url('/users/'.$user->id) }}" method="POST" enctype="multipart/form-data">
                 @method('PATCH')
                 @include('layouts.form',['tombol' => 'Update'])
             </form>
