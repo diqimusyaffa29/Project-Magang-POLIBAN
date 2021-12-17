@@ -17,58 +17,58 @@
         <div class="carousel-inner text-white" >
             <div class="carousel-item active" id="slide1" data-interval="4000" >
                 <img src="{{asset('img/menara pandang by Yulian Rahman.jpg')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Smart <strong>Goverment</strong></h1>
+                <div class="carousel-caption d-none d-md-block img-fluid" style="opacity: 0.9">
+                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block container-fluid">Smart <strong>Goverment</strong></h1>
                     <br>
-                    <p class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Smart goverment ditujukan untuk memberikan kenyamanan dan kemudahan kepada para stakeholder, baik antara pemerintah dengan pemerintah (government to government), pemerintah dengan pelaku bisnis (government to business), dan pemerintah dengan masyarakat (government to citizen).</p>
+                    <h3 class="bg-dark px-2 pb-1 d-inline-block fluid" style="border-radius: 10px">Tata Kelola Pemerintahan yang Pintar.</h3>
                 </div>
             </div>
             <div class="carousel-item " id="slide2" data-interval="4000">
                 <img src="{{asset('img/full-image5.jpg')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Smart <strong>Branding</strong></h1>
+                <div class="carousel-caption d-none d-md-block img-fluid" style="opacity: 0.9">
+                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block fluid">Smart <strong>Branding</strong></h1>
                     <br>
-                    <p class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Smart Branding menjadi salah satu dimensi dalam Smart City karena di dalam era informasi seperti saat ini, sebuah kota tidak lagi harus mampu memenuhi kebutuhan-kebutuhannya dengan hanya memanfaatkan potensi lokal-nya, tetapi harus juga mampu menarik partisipasi masyarakat, baik dari dalam maupun luar daerah, serta pelaku bisnis dan investor untuk ikut mendorong percepatan pembangunan daerahnya.</p>
+                    <h3 class="bg-dark px-2 pb-1 d-inline-block fluid" style="border-radius: 10px">Branding Daerah yang Pintar.</h3>
                 </div>
             </div>
             <div class="carousel-item " id="slide3" data-interval="4000">
                 <img src="{{asset('img/full-image4.jpg')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block" >Smart <strong>Economy</strong></h1>
+                <div class="carousel-caption d-none d-md-block img-fluid" style="opacity: 0.9">
+                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block fluid" >Smart <strong>Economy</strong></h1>
                     <br>
-                    <p class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Smart Economy atau tata kelola perekonomian yang pintar dimaksudkan untuk mewujudkan ekosistem perekonomian di daerah yang mampu memenuhi tantangan di era informasi yang disruptif dan menuntut tingkat adaptasi yang cepat seperti saat ini dengan mewujudkan ekosistem yang mendukung aktifitas ekonomi masyakat yang selaras dengan sektor ekonomi unggulan daerah yang adaptif terhadap perubahan yang terjadi di era informasi saat ini, serta meningkatkan financial literacy masyarakat. Dimensi smart economy diharapkan mampu membawa Kota Banjarmasin menjadi kota yang nyaman untuk kegiatan berusaha.</p>
+                    <h3 class="bg-dark px-2 pb-1 d-inline-block fluid" style="border-radius: 10px">Tata Kelola Perekonomian yang Pintar.</h3>
                 </div>
             </div>
             <div class="carousel-item " id="slide4" data-interval="4000">
                 <img src="{{asset('img/full-image1.jpg')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Smart <strong>Living</strong></h1>
+                <div class="carousel-caption d-none d-md-block img-fluid" style="opacity: 0.9">
+                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block fluid">Smart <strong>Living</strong></h1>
                     <br>
-                    <p class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Smart living menjadi salah satu dimensi dalam Smart City untuk menjamin kelayakan taraf hidup masyarakat di dalamnya. Kelayakan taraf hidup ini dapat dinilai dari tiga elemen, yaitu kelayakan pola hidup, kelayakan kualitas kesehatan, dan kelayakan moda transportasi untuk mendukung mobilitas orang dan barang di dalam sebuah Smart City. Sasaran dari smart living di dalam Smart City adalah untuk mewujudkan lingkungan tempat tinggal yang layak tinggal, nyaman, dan efisien.</p>
+                    <h3 class="bg-dark px-2 pb-1 d-inline-block fluid" style="border-radius: 10px">Untuk menjamin kelayakan taraf hidup Masyarakat.</h3>
                 </div>
             </div>
             <div class="carousel-item " id="slide5" data-interval="4000">
                 <img src="{{asset('img/full-image1.jpg')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Smart <strong>Society</strong></h1>
+                <div class="carousel-caption d-none d-md-block img-fluid" style="opacity: 0.9">
+                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block fluid">Smart <strong>Society</strong></h1>
                     <br>
-                    <p class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Smart society sebagai bagian dari Smart City merupakan dimensi yang banyak membahas tentang manusia sebagai unsur utama sebuah kota. Di dalam sebuah Smart City, interaksi antar manusia telah bergerak menuju ekosistem sosioteknis di mana dimensi fisik dan virtual dari kehidupan warga kota semakin terjalin secara intensif. Interaksi antar-warga terjalin dengan semakin kuat dan tanpa sekat dengan mediasi teknologi.</p>
+                    <h3 class="bg-dark px-2 pb-1 d-inline-block fluid" style="border-radius: 10px">Dimensi yang banyak membahas tentang Manusia sebagai unsur utama sebuah Kota.</h3>
                 </div>
             </div>
             <div class="carousel-item " id="slide6" data-interval="4000">
                 <img src="{{asset('img/full-image1.jpg')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption d-none d-md-block" style="opacity: 0.9">
-                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block">Smart <strong>Environment</strong></h1>
+                <div class="carousel-caption d-none d-md-block img-fluid" style="opacity: 0.9">
+                    <h1 class="display-1 bg-info px-4 pb-2 d-inline-block fluid">Smart <strong>Environment</strong></h1>
                     <br>
-                    <p class="bg-dark px-2 pb-1 d-inline-block" style="border-radius: 10px">Dimensi smart environment menekankan aspek pengelolaan lingkungan yang efektif dan efisien dengan memanfaatkan teknologi untuk memperkecil penggunaan sumber daya. Smart environment justru ditujukan untuk menciptakan energi alternatif yang lebih ramah lingkungan. Pengembangan energi tersebut dapat dilakukan dengan potensi yang dimiliki oleh setiap wilayah. Ide dasar dari smart environment di dalam Smart City adalah untuk mewujudkan pembangunan yang berkelanjutan, dimana hal tersebut tidak boleh hilang dengan lahirnya ide tentang Smart City yang menjadikan elemen teknologi sebagai elemen pendorongnya.</p>
+                    <h3 class="bg-dark px-2 pb-1 d-inline-block fluid" style="border-radius: 10px">Pengelolaan lingkungan yang Pintar.</h3>
                 </div>
             </div>
         </div>
-        <a href="#mySlide" class="carousel-control-prev" data-slide="prev">
+        <a href="#mySlide" class="carousel-control-prev container-fluid" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a href="#mySlide" class="carousel-control-next" data-slide="next">
+        <a href="#mySlide" class="carousel-control-next container-fluid" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
@@ -129,7 +129,7 @@
             <div class="col-md-5">
                 <figure>
                     <a href="https://www.google.co.id/maps/place/Banjarmasin,+Kota+Banjarmasin,+Kalimantan+Selatan/@-3.3171351,114.5591928,12101m/data=!3m2!1e3!4b1!4m5!3m4!1s0x2de4209aa1eec961:0x26030bfcc09204d2!8m2!3d-3.3186067!4d114.5943784?hl=id">
-                        <img class="featurette-image img-responsive center-block" src="{{asset('img/mapsbjm.jpg')}}" style="border-radius:30px" alt="Generic placeholder image">
+                        <img class="featurette-image img-responsive center-block img-fluid" src="{{asset('img/mapsbjm.jpg')}}" style="border-radius:30px" alt="Generic placeholder image">
                     </a>
                     <figcaption>Sumber: Google Maps</figcaption>
                 </figure>
@@ -145,7 +145,7 @@
             </div>
             <div class="col-md-5 order-md-1">
                 <figure>
-                    <img class="featurette-image img-responsive center-block" src="{{asset('img/Wisata_Menara_Pandang_Mulai_Ramai_Meski_Belum_Dibuka_1.jpg')}}" style="width: 420px; height:370px; border-radius:30px" alt="Generic placeholder image">
+                    <img class="featurette-image img-responsive center-block img-fluid" src="{{asset('img/Wisata_Menara_Pandang_Mulai_Ramai_Meski_Belum_Dibuka_1.jpg')}}" style="width: 420px; height:370px; border-radius:30px" alt="Generic placeholder image">
                     <figcaption>Sumber: Google Image</figcaption>
                 </figure>
             </div>
@@ -161,7 +161,7 @@
             <div class="col-md-5">
                 <figure>
                     <a href="https://www.google.co.id/maps/place/Banjarmasin+Plaza+Smart+City/@-3.3170573,114.5930378,19z/data=!4m5!3m4!1s0x2de4232bca16fb15:0x2b70d9b238e01d19!8m2!3d-3.3170072!4d114.5931429?hl=id">
-                        <img class="featurette-image img-responsive center-block" src="{{asset('img/Slider-2-Menara_Pandang-BanjarmasinTourism.jpg')}}" style="width: 420px; height:370px; border-radius:30px" alt="Generic placeholder image">
+                        <img class="featurette-image img-responsive center-block img-fluid" src="{{asset('img/Slider-2-Menara_Pandang-BanjarmasinTourism.jpg')}}" style="width: 420px; height:370px; border-radius:30px" alt="Generic placeholder image">
                     </a>
                     <figcaption>Sumber: Dinas Kebudayaan dan Pariwisata Kota Banjarmasin</figcaption>
                 </figure>
