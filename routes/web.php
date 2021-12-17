@@ -25,6 +25,7 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 Route::get('/member', [App\Http\Controllers\HomeController::class, 'member'])->name('member');
 Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
 Route::get('/gallery', [App\Http\Controllers\HomeController::class, 'gallery'])->name('gallery');
+Route::get('/kontak-kami', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
 
 // Route::get('/users/{user}/edit', [UserController::class,'edit'])->middleware('can:update,user');
 Route::get('/users/{user}/edit' , [UserController::class,'edit'])->middleware('can:update,user');
