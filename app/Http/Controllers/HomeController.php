@@ -47,6 +47,12 @@ class HomeController extends Controller
         return view('galeri');
     }
 
+    public function contact()
+    {
+        $users = User::all();
+        return view('kontak');
+    }
+
 
 
 }
