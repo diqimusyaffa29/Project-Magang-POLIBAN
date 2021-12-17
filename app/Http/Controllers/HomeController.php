@@ -41,6 +41,12 @@ class HomeController extends Controller
         return view('about');
     }
 
+    public function gallery()
+    {
+        $users = User::all();
+        return view('galeri');
+    }
+
 
 
 }

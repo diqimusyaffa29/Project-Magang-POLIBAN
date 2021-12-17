@@ -54,7 +54,7 @@
                     <a href="#" class="nav-link p-4">Article</a>
                 </li> --}}
                 <li class="nav-item">
-                    <a href="#" class="nav-link p-3">Galeri</a>
+                    <a href="{{route('gallery')}}" class="nav-link p-3 @yield('statusGaleri')">Galeri</a>
                 </li>
                 <li class="nav-item">
                     <a href="#hubungi" class="nav-link p-3">Kontak Kami</a>
