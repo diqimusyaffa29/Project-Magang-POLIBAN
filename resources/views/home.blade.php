@@ -16,7 +16,7 @@
         </ol>
         <div class="carousel-inner text-white" >
             <div class="carousel-item active" id="slide1" data-interval="4000" >
-                <img src="{{asset('img/menara pandang by Yulian Rahman.jpg')}}" alt="" class="d-block w-100">
+                <img src="{{asset('img/menara pandang by Yulian Rahman.jpg')}}" alt="" class="d-block w-100 img-fluid">
                 <div class="carousel-caption d-none d-md-block img-fluid" style="opacity: 0.9">
                     <h1 class="display-1 bg-info px-4 pb-2 d-inline-block container-fluid">Smart <strong>Goverment</strong></h1>
                     <br>
@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="carousel-item " id="slide4" data-interval="4000">
-                <img src="{{asset('img/full-image1.jpg')}}" alt="" class="d-block w-100">
+                <img src="{{asset('img/full-image8.jpg')}}" alt="" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block img-fluid" style="opacity: 0.9">
                     <h1 class="display-1 bg-info px-4 pb-2 d-inline-block fluid">Smart <strong>Living</strong></h1>
                     <br>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="carousel-item " id="slide5" data-interval="4000">
-                <img src="{{asset('img/full-image1.jpg')}}" alt="" class="d-block w-100">
+                <img src="{{asset('img/full-image9.jpg')}}" alt="" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block img-fluid" style="opacity: 0.9">
                     <h1 class="display-1 bg-info px-4 pb-2 d-inline-block fluid">Smart <strong>Society</strong></h1>
                     <br>
@@ -56,7 +56,7 @@
                 </div>
             </div>
             <div class="carousel-item " id="slide6" data-interval="4000">
-                <img src="{{asset('img/full-image1.jpg')}}" alt="" class="d-block w-100">
+                <img src="{{asset('img/full-image7.jpg')}}" alt="" class="d-block w-100">
                 <div class="carousel-caption d-none d-md-block img-fluid" style="opacity: 0.9">
                     <h1 class="display-1 bg-info px-4 pb-2 d-inline-block fluid">Smart <strong>Environment</strong></h1>
                     <br>
@@ -92,23 +92,23 @@
         <div class="row">
             <div class="col-lg-4 px-lg-5" style="padding: 50px 0 20px 0">
                 <center>
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="130 " height="150">
+                    <img class="rounded-circle" src="{{asset('img/kepala diskominfotik.jpg')}}" alt="Generic placeholder image" width="200" height="220"">
                     <h2>Kepala Dinas Kominfo</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                    <p>"Pemerintah Kota Banjarmasin berkomitmen mengembangkan program smart city ini lebih maju lagi, setidaknya menuju untuk menyamai kota-kota maju di Indonesia"</p>
+                    <p><a class="btn btn-default" href="https://kalsel.antaranews.com/berita/249914/diskominfotik-banjarmasin-infrastruktur-jaringan-smart-city-baru-terpasang-400-meter" role="button">View details &raquo;</a></p>
                 </center>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 px-lg-5" style="padding: 50px 0 20px 0 ">
                 <center>
                     <img class="rounded-circle" src="{{asset('img/WalikotaBJM.jpg')}}" alt="Generic placeholder image" width="200" height="220">
                     <h2>Walikota Banjarmasin</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                    <p>"Banjarmasin Plaza Smart City yang dibangun oleh Pemerintah Kota Banjarmasin ini di dalamnya ada wadah berdiskusi, memberikan pelatihan dan lomba dengan sasaran pembinaan generasi muda dan UMKM, sebagai sarana publik yang dimanfaatkan baik oleh komunitas maupun perorangan."</p>
+                    <p><a class="btn btn-default" href="https://diskominfotik.banjarmasinkota.go.id/2019/07/walikota-resmikan-banjarmasin-plaza.html" role="button">View details &raquo;</a></p>
                 </center>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 px-lg-5" style="padding: 50px 0 20px 0">
                 <center>
-                    <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="130" height="165">
+                    <img class="rounded-circle" src="" alt="Generic placeholder image" width="200" height="220">
                     <h2>Kepala Bidang Smart City </h2>
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
