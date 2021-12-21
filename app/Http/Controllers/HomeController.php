@@ -53,6 +53,12 @@ class HomeController extends Controller
         return view('kontak');
     }
 
+    public function reservation()
+    {
+        $users = User::all();
+        return view('reservasi');
+    }
+
 
 
 }
