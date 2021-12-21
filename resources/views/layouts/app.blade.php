@@ -59,6 +59,9 @@
                 <li class="nav-item">
                     <a href="{{route('contact')}}" class="nav-link p-3 @yield('statusKontak')">Kontak Kami</a>
                 </li>
+                <li class="nav-item">
+                    <a href="{{route('reservation')}}" class="nav-link p-3 @yield('statusReservasi')">Reservasi</a>
+                </li>
             </ul>
 
             {{-- Right Side of Navbar --}}
@@ -108,21 +111,21 @@
                 <div class="col-md-2 text-center">
                     <h5>Community</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">BPSC</a></li>
-                        <li><a href="#" class="text-white">KOPI</a></li>
-                        <li><a href="#" class="text-white">TDA</a></li>
-                        <li><a href="#" class="text-white">And many more</a></li>
+                        <li class="py-1">BPSC</li>
+                        <li class="py-1">KOPI</li>
+                        <li class="py-1">TDA</li>
+                        <li class="py-1">And many more</li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 text-center">
                     <h5>Our Services</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Giving a comfortable Working Space</a></li>
-                        <li><a href="#" class="text-white">Free Wifi up to 2 Devices</a></li>
-                        <li><a href="#" class="text-white">4 Personal Computer Ready to Use</a></li>
-                        <li><a href="#" class="text-white">Open from 9AM to 4PM</a></li>
-                        <li><a href="#" class="text-white">River Views</a></li>
+                        <li class="py-1">Giving a comfortable Working Space</li>
+                        <li class="py-1">Free Wifi up to 2 Devices</li>
+                        <li class="py-1">Personal Computer Ready to Use</li>
+                        <li class="py-1">Open from 9AM to 4PM</li>
+                        <li class="py-1">River Views</li>
                     </ul>
                 </div>
 
