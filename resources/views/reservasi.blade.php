@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row featurette" style="padding: 20px 0">
             <div class="col-md-7">
-                <h2><small>Buka Laman BPSC <a href="https://bpsc.banjarmasinkota.go.id/">(https://bpsc.banjarmasinkota.go.id/)</a> lalu klik Login</small></h2>
+                <h3><small>Buka Laman BPSC <a href="https://bpsc.banjarmasinkota.go.id/"><small>(https://bpsc.banjarmasinkota.go.id/)</small></a> lalu klik Login</small></h3>
                 {{-- <p class="lead"><strong>Kota Banjarmasin </strong>merupakan Ibukota Provinsi Kalimantan Selatan
                     yang
                     terletak di muara Sungai Barito. Sebagian besar wilayah Kota Banjarmasin yang memiliki luas sekitar
@@ -23,11 +23,11 @@
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr style="border-top:1px solid #999">
 
         <div class="row featurette" style="padding: 20px 0">
             <div class="col-md-7 order-md-2">
-                <h2><small>Login Menggunakan Akun Google Anda</small></h2>
+                <h3><small>Login Menggunakan Akun Google Anda</small></h3>
                 {{-- <p class="lead">Berdasarkan data tahun 2017 kepadatan penduduk Kota Banjarmasin mencapai 6.949
                     jiwa/km
                     diprediksikan jika jumlah penduduk di Kota Banjarmasin akakn mencapai 748.174 jiwa pada tahun 2023 dan
@@ -42,11 +42,11 @@
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr style="border-top:1px solid #999">
 
         <div class="row featurette" style="padding: 20px 0">
             <div class="col-md-7">
-                <h2><small>Setelah login, tekan pada bagian Rervasi, lalu silahkan pilih hari yang tersedia untuk reservasi</small></h2>
+                <h3><small>Setelah login, tekan pada bagian Rervasi, lalu silahkan pilih hari yang tersedia untuk reservasi</small></h3>
                 {{-- <p class="lead">Jl. Kapten Pierre Tendean (Menara Pandang Lantai 3), Gadang, Kecamatan Banjarmasin
                     Tengah, Kota Banjarmasin, Kalimantan Selatan 70123.</p> --}}
             </div>
@@ -59,11 +59,11 @@
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr style="border-top:1px solid #999">
 
         <div class="row featurette" style="padding: 20px 0">
             <div class="col-md-7 order-md-2">
-                <h2><small>Silahkan isi tujuan reservasi anda kemudian jika sudah, klik simpan</small></h2>
+                <h3><small>Silahkan isi tujuan reservasi anda kemudian jika sudah, klik simpan</small></h3>
                 {{-- <p class="lead">Berdasarkan data tahun 2017 kepadatan penduduk Kota Banjarmasin mencapai 6.949
                     jiwa/km
                     diprediksikan jika jumlah penduduk di Kota Banjarmasin akakn mencapai 748.174 jiwa pada tahun 2023 dan
@@ -78,11 +78,11 @@
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr style="border-top:1px solid #999">
 
         <div class="row featurette" style="padding: 20px 0">
             <div class="col-md-7">
-                <h2><small>Jika sukses melakukan reservasi, maka akan muncul tombol untuk menampilkan kode QR untuk melakukan Check in ketika di Plaza Smart City, Reservasi ini dapat dibatalkan dengan klik tanda silang merah</small></h2>
+                <h3><small>Jika sukses melakukan reservasi, maka akan muncul tombol untuk menampilkan kode QR untuk melakukan Check in ketika di Plaza Smart City, Reservasi ini dapat dibatalkan dengan klik tanda silang merah</small></h3>
                 {{-- <p class="lead">Jl. Kapten Pierre Tendean (Menara Pandang Lantai 3), Gadang, Kecamatan Banjarmasin
                     Tengah, Kota Banjarmasin, Kalimantan Selatan 70123.</p> --}}
             </div>
@@ -95,11 +95,11 @@
             </div>
         </div>
 
-        <hr class="featurette-divider">
+        <hr style="border-top:1px solid #999">
 
         <div class="row featurette" style="padding: 20px 0">
             <div class="col-md-7 order-md-2">
-                <h2><small>Tampilkan Kode QR ketika masuk ke ruangan BPSC kemudian arahkan Kode QR pada kamera untuk dilakukan Scanning Checkin</small></h2>
+                <h3><small>Tampilkan Kode QR ketika masuk ke ruangan BPSC kemudian arahkan Kode QR pada kamera untuk dilakukan Scanning Checkin</small></h3>
                 {{-- <p class="lead">Berdasarkan data tahun 2017 kepadatan penduduk Kota Banjarmasin mencapai 6.949
                     jiwa/km
                     diprediksikan jika jumlah penduduk di Kota Banjarmasin akakn mencapai 748.174 jiwa pada tahun 2023 dan
@@ -113,5 +113,9 @@
                 </figure>
             </div>
         </div>
+        <footer>
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; Tim Magang POLIBAN | 2021 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
     </div>
 @endsection
