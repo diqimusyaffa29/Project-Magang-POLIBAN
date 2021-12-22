@@ -131,7 +131,7 @@
 
                 <div class="col-md-3 text-center text-md-left" id="hubungi">
                     <h5>Hubungi Kami</h5>
-                    <div class="text-nowrap" style="font-size: 15px">
+                    <div class="text-nowrap" style="font-size: 14px">
                         <i class="fas fa-envelope fa-lg " > banjarmasinplazasmartcity@gmail.com</i>
                     </div>
                     <div class="text-nowrap">
