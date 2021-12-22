@@ -100,7 +100,7 @@
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 px-lg-5" style="padding: 50px 0 20px 0 ">
                 <center>
-                    <img class="rounded-circle" src="{{asset('img/WalikotaBJM.jpg')}}" alt="Generic placeholder image" width="200" height="220">
+                    <img class="rounded-circle" src="{{asset('img/walkot.jpg')}}" alt="Generic placeholder image" width="200" height="220">
                     <h2>Walikota Banjarmasin</h2>
                     <p>"Banjarmasin Plaza Smart City yang dibangun oleh Pemerintah Kota Banjarmasin ini di dalamnya ada wadah berdiskusi, memberikan pelatihan dan lomba dengan sasaran pembinaan generasi muda dan UMKM, sebagai sarana publik yang dimanfaatkan baik oleh komunitas maupun perorangan."</p>
                     <p><a class="btn btn-default" href="https://diskominfotik.banjarmasinkota.go.id/2019/07/walikota-resmikan-banjarmasin-plaza.html" role="button">View details &raquo;</a></p>
@@ -108,7 +108,7 @@
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4 px-lg-5" style="padding: 50px 0 20px 0">
                 <center>
-                    <img class="rounded-circle" src="" alt="Generic placeholder image" width="200" height="220">
+                    <img class="rounded-circle" src="{{asset('img/kabid.jpg')}}" alt="Generic placeholder image" width="200" height="220">
                     <h2>Kepala Bidang Smart City </h2>
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -121,7 +121,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette" style="padding: 100px 0">
+        <div class="row featurette" style="padding: 70px 0">
             <div class="col-md-7">
                 <h2 class="featurette-heading"><u>Kota Banjarmasin.</u></h2>
                 <p class="lead"><strong>Kota Banjarmasin </strong>merupakan Ibukota Provinsi Kalimantan Selatan yang terletak di muara Sungai Barito. Sebagian besar wilayah Kota Banjarmasin yang memiliki luas sekitar 98,46 km kubik mengalami perkembangan yang sangat cepat hingga menjadi Kota terdapat di Provinsi Kalimantan Selatan.</p>
@@ -138,7 +138,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette" style="padding: 100px 0">
+        <div class="row featurette" style="padding: 70px 0">
             <div class="col-md-7 order-md-2">
                 <h2 class="featurette-heading"><strong><u>Pertumbuhan Penduduk</u></strong></h2>
                 <p class="lead">Berdasarkan data tahun 2017 kepadatan penduduk Kota Banjarmasin mencapai 6.949 jiwa/km diprediksikan jika jumlah penduduk di Kota Banjarmasin akakn mencapai 748.174 jiwa pada tahun 2023 dan 797.693 di tahun 2008 dengan laju pertumbuhan 1,29%.</p>
@@ -153,7 +153,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="row featurette" style="padding: 100px 0">
+        <div class="row featurette" style="padding: 70px 0">
             <div class="col-md-7">
                 <h2 class="featurette-heading"><strong><u>Lokasi</u></strong></h2>
                 <p class="lead">Jl. Kapten Pierre Tendean (Menara Pandang Lantai 3), Gadang, Kecamatan Banjarmasin Tengah, Kota Banjarmasin, Kalimantan Selatan 70123.</p>
